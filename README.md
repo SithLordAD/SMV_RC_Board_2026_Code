@@ -5,14 +5,14 @@ Currently in development. There are pin mapping conflicts for the tail lights, b
 # Pin Mapping
 | Name | Pin |
 | -------- | -------- |
-| ADC Chip Select | PB4 |
-| Turn Signal Light 2 | PB7 |
-| CAN Transmitter | PB8 |
-| CAN Receiver | PB9 |
-| Accelerometer Chip Select | PB12 |
-| Serial Clock | PB13 |
+| CS_ADC | PB4 |
+| Turn_Signal_2 | PB7 |
+| CAN_TX | PB8 |
+| CAN_RX | PB9 |
+| CS_Accelerometer | PB12 |
+| SCL | PB13 |
 | MISO | PB14 |
 | MOSI | PB15 |
-| Tail Lights | PA13 (conflict) |
-| Turn Signal Light 1 | PA14 (conflict) |
-| Brake Lights | PH1 (conflict) |
+| Tail_Light | PA13 (conflict) |
+| Turn_Signal_1 | PA14 (conflict) |
+| Brake_Light | PH1 (conflict) |
